@@ -1,7 +1,11 @@
-import loadHandler from '../handlers/loadHandler.js';
+import dom from "../dom.js";
+import loadPokemonHandler from "../handlers/loadPokemonHandler.js";
 
 const loadEvent = () => {
-    window.addEventListener('DOMContentLoaded', loadHandler);
-};
+    dom.searchPokeBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        loadPokemonHandler();
+    })
+}
 
 export default loadEvent;

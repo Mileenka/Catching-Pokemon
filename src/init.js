@@ -1,2 +1,3 @@
-import loadEvent from './events/loadEvent.js';
+import loadEvent from "./events/loadEvent.js";
+
 loadEvent();
