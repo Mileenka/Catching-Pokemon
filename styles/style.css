@@ -93,14 +93,12 @@ body {
     /* border: 1px solid green; */
 }
 
-
-
 .pokeImg {
     width: 80%;
     /* border: 1px solid red; */
 }
 
-.pokeImg > img {
+.pokeImg>img {
     width: 100%;
     height: auto;
 }
@@ -184,14 +182,8 @@ body {
 }
 
 @media screen and (min-width: 1024px) {
-     .container {
-        border: 1px solid red;
-     }
-    .pokeImg > img {
+    .pokeImg>img {
         width: 130%;
         height: auto;
     }
-
-    
-    
 }
